@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/stackel/static-web-boilerplate#readme",
   "dependencies": {
-    "mustache": "^2.3.0"
+    "mustache": "^2.3.0",
+    "tachyons": "^4.9.1"
   }
 }
