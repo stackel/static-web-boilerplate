@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "mustache data.json index.mustache>index.html",
-    "deploy": "git checkout gh-pages && git merge master && git push && git checkout master"
+    "deploy": "npm run build && git checkout gh-pages && git merge master && git push && git checkout master"
   },
   "repository": {
     "type": "git",
