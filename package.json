@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/stackel/static-web-boilerplate/issues"
   },
-  "homepage": "https://github.com/stackel/static-web-boilerplate#readme"
+  "homepage": "https://github.com/stackel/static-web-boilerplate#readme",
+  "dependencies": {
+    "mustache": "^2.3.0"
+  }
 }
