@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "Boilerplate for a static website using mustache and tachyons.",
   "main": "index.html",
+  "watch": {
+    "build": "index.mustache"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "mustache data.json index.mustache>index.html",
+    "watch": "npm-watch",
     "deploy": "npm run build && git checkout gh-pages && git merge master && git push && git checkout master"
   },
   "repository": {
@@ -26,6 +30,7 @@
   },
   "homepage": "https://github.com/stackel/static-web-boilerplate#readme",
   "dependencies": {
-    "mustache": "^2.3.0"
+    "mustache": "^2.3.0",
+    "npm-watch": "^0.3.0"
   }
 }
