@@ -1,7 +1,7 @@
 {
-  "name": "static-web-boilerplate",
+  "name": "runmarol",
   "version": "1.0.0",
-  "description": "Boilerplate for a static website using mustache and tachyons.",
+  "description": "Brewery website.",
   "main": "index.html",
   "watch": {
     "build": "index.mustache"
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stackel/static-web-boilerplate.git"
+    "url": "git+https://github.com/stackel/runmarol.git"
   },
   "keywords": [
     "static",
@@ -26,9 +26,9 @@
   "author": "Erik Stackelberg",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/stackel/static-web-boilerplate/issues"
+    "url": "https://github.com/stackel/runmarol/issues"
   },
-  "homepage": "https://github.com/stackel/static-web-boilerplate#readme",
+  "homepage": "https://github.com/stackel/runmarol",
   "dependencies": {
     "mustache": "^2.3.0",
     "npm-watch": "^0.3.0"
